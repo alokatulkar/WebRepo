@@ -2,10 +2,10 @@ version: 0.0
 os: linux
 
 files:
-  - source: /WebRepo/index.html
+  - source: /index.html
     destination: /var/www/html
     overwrite: true
-  - source: /WebRepo/style.css
+  - source: /style.css
     destination: /var/www/html
 
 hooks:
